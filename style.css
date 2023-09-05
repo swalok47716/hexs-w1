@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+    Starts from here
+*/
+body {
+    height: 3548px;
+    width: 1920px;
+    margin: auto;
+    background-color: #FFFFFF;
+    font-family: 'Castoro', serif;
+
+    border: 2px solid red;
+}
+
+.cover h1 {
+    font-size: 128px;
+    line-height: 192px;
+    letter-spacing: 15.36px;
+}
+.title-1 {
+    width: 370px;
+    height: 192px;
+    margin-left: 312px;
+    margin-top: 160px;
+}
+.portrait {
+    display: block;
+    width: 636px;
+    height: 848px;
+    margin-left: 642px;
+}
+.title-2 {
+    width: 622px;
+    height: 192px;
+    margin-left: 972px;
+}
+.header {
+    margin-bottom: 80px;
+    background-color: #EFEFEF;
+}
+.header p {
+    width: 636px;
+    height: 336px;
+    padding: 48px 312px 48px 972px;
+    color: #000000;
+    font-size: 32px;
+    line-height: 48px;
+}
+.contact-info--and--experience {
+    width: 636px;
+    margin-left: 312px;
+    margin-bottom: 160px;
+}
+.contact-info--and--experience div {
+    margin-bottom: 40px;
+}
+.contact-info--and--experience h1 {
+    box-sizing: border-box;
+    height: 60px;
+    border-bottom: 3px solid #AE0000;
+    margin-bottom: 16px;
+    color: #AE0000;
+    font-size: 40px;
+    line-height: 60px;
+}
+.contact-info .detail {
+    margin-bottom: 8px;
+    display: block;
+    font-size: 24px;
+    line-height: 36px;
+}
+.contact-info--and--experience .period {
+    display: block;
+    color: #949494;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+}
+.education .detail, .work .detail {
+    display: block;
+    margin-bottom: 16px;
+    color: #000;
+    font-size: 24px;
+    line-height: 36px;
+}
+.awards .detail {
+    display: block;
+    margin-bottom: 12px;
+    color: #000;
+    font-size: 24px;
+    line-height: 36px;
+}
+.footer {
+    height: 192px;
+    background-color: black;
+}
+.footer .images {
+    display: inline-block;
+    margin-left: 842px;
+    margin-top: 64px
+}
+/* Taking a workaround, but still need to figure it out later on */
+.footer img {
+    padding-right: 40px;
+}
